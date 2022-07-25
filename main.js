@@ -1,5 +1,5 @@
 let produtos = [];
-let indiciAtual;
+let indiciAtual = 0;
 
 function adicionarProduto() {
     var prod = document.getElementById('nomeProduto').value;
